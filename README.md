@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React Capstone
+# Vet clinit. Databases project
 
 > On this project I'll build a database using PostgreSQL, the database theme is a vet clinic
 
