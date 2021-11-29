@@ -1,31 +1,45 @@
-# curriculum-databases-projects-template
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+# Vet clinic. Databases project
 
+> On this project I'll build a database using PostgreSQL, the database theme is a vet clinic
+
+![screenshot](./screenshot.png)
+
+> On this milestone I created the animal table, inserted 4 animals, and added an assortment of queries
+
+## Built With
+
+- PostgreSQL
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+### Prerequisites
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- PostgreSQL
+
+### Setup
+
+- Clone the repository with git clone https://github.com/leolpaz/vet_clinic.git;
+- Create a database, you can follow the [getting started](https://www.postgresql.org/docs/current/tutorial-start.html) section on the PSQL website
+- Access your created database
+
+### Usage
+
+- Run \i  path/schema.sql to create the table
+- Run \i path/data.sql to insert the 4 example animals
+- Run \i path/queries.sql to run the example queries
+- Note: Be careful if you're copying the path from windows explorer as the path will be written as "drive:\path\to\folder\file_name.sql" and you'll likely get a "permission denied" error, use slashes instead of backslashes for the file address like "\i drive:/path/to/folder/file_name.sql"
 
 
-## Authors
 
-👤 **Author1**
+## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Leonardo Paz**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Github: [Leonardo Paz](https://github.com/leolpaz)
+- Twitter: [Leonardo Paz](https://twitter.com/leonardolpaz95)
+- Linkedin: [Leonardo Paz](https://www.linkedin.com/in/leonardolpaz/)
 
 ## 🤝 Contributing
 
@@ -39,9 +53,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to anyone who's code was used
+- Microverse
 
 ## 📝 License
 
