@@ -7,3 +7,21 @@ SELECT * FROM animals WHERE neutered = TRUE;
 SELECT * FROM animals WHERE name != 'Gabumon';
 SELECT * FROM animals WHERE weight_kg between 10.4 and 17.3;
 
+BEGIN;
+UPDATE animals
+SET species = 'unspecified';
+SELECT * FROM animals;
+ROLLBACK;
+SELECT * FROM animals WHERE species = 'unspecified';
+
+
+BEGIN;
+UPDATE animals
+SET species = 'digimon'
+WHERE RIGHT(name, 3) = 'mon';
+UPDATE animals
+SET species = 'pokemon'
+WHERE species IS NULL;
+SELECT * FROM animals;
+COMMIT;
+SELECT * FROM animals;
