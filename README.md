@@ -6,7 +6,7 @@
 
 ![screenshot](./screenshot.png)
 
-> On this milestone I created the animal table, inserted 4 animals, and added an assortment of queries
+> On this milestone I created new tables, inserted new data, and created more queries
 
 ## Built With
 
