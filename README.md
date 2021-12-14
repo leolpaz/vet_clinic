@@ -6,8 +6,6 @@
 
 ![screenshot](./screenshot.png)
 
-> On this milestone I created new tables, inserted new data, and created more queries
-
 ## Built With
 
 - PostgreSQL
